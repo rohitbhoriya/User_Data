@@ -1,0 +1,38 @@
+.main_container{
+    height: 100%;
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 10px;
+    
+
+}
+
+.mid_container{
+    padding:10px;
+    height:80%;
+}
+
+.mid_container div{
+    
+    display: flex;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    margin: 10px;
+    align-items: center;
+    height:35px;
+}
+
+.mid_container div p{
+    font-weight: bold;
+
+}
+
+.mid_container .main_name{
+    margin-top: -13px;
+    margin-left: -10px;
+    padding: 15px;
+    border-bottom:none;
+    background-color:rgba(255,255,255,0.4);
+}
+
