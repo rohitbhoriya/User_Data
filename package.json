@@ -2,7 +2,7 @@
   "name": "user_data_display",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://rohitbhoriya.github.io/",
+  "homepage":"http://rohitbhoriya.github.io/User_Data",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
