@@ -8,8 +8,8 @@ import "./userDetails.css"
 const UserDetails = () => {
     const { id } = useParams();
     const user = Users.find(user => user.id === Number(id));
-    console.log(user)
-    console.log(typeof(id))
+    
+    
     return (
         <>
             <div className="main_container">
@@ -18,7 +18,7 @@ const UserDetails = () => {
                     <div className="main_name">
                         <h1>
                             <Link
-                                to="/users"
+                                to="/"
                                 style={{
                                     textDecoration: 'none',
                                     fontWeight: 'bold',
